@@ -2,10 +2,10 @@
 $insert=false;
 if(isset($_POST['name'])){
   //Set connection variables
-    $server="melbinnn.mysql.polardb.japan.rds.aliyuncs.com";
-    $username="melbin1";
-    $password="Ntorq@125";
-    $database="melbindb";
+    $server="melbinnn.mysql.polardb.japan.rds.aliyuncs.com:3306";
+    $username="test1";
+    $password="melbin@123";
+    $database="db1";
  
  //create database connection
  $con = mysqli_connect($server,$username,$password,$database);
@@ -23,7 +23,7 @@ $email=$_POST['email'];
 $phone=$_POST['phone'];
 $message=$_POST['message'];
  
-$sql= "INSERT INTO informtion VALUES('$name', '$email', '$phone', '$message');";
+$sql= "INSERT INTO contact VALUES ('$name', '$email', '$phone', '$message');";
  
 // echo $sql;
  
@@ -105,12 +105,12 @@ $con->close();
    <div class="content">
       <span>upto 50% off</span>
       <h3>Sneaker shoes</h3>
-      <p>Hi, We Love Sneakers </p>
+      <p>Hi, We Love Sneakers and we deal in Air Jordans and latest sneakers. </p>
       <a href="#" class="btn">Shop now !!</a>
    </div>
 
    <div class="image">
-      <img src="images/banner-product.png" alt="">
+      <img src="images/jd.png" alt="">
    </div>
 
 </section>
@@ -128,38 +128,38 @@ $con->close();
       <div class="swiper-wrapper">
 
          <div class="swiper-slide slide">
-            <img src="images/product-img1.jpg" alt="">
+            <img src="images/jd1.jpeg" alt="">
             <h3>SNEAKERS</h3>
             <div class="btn" data-product="product-1">see details</div>
          </div>
 
          <div class="swiper-slide slide">
-            <img src="images/product-img2.jpg" alt="">
+            <img src="images/ar2.jpg" alt="">
             <h3>nike airmax</h3>
             <div class="btn" data-product="product-2">see details</div>
          </div>
 
          <div class="swiper-slide slide">
-            <img src="images/product-img3.jpg" alt="">
+            <img src="images/ar1.webp" alt="">
             <h3>nike airmax</h3>
             <div class="btn" data-product="product-3">see details</div>
          </div>
 
          <div class="swiper-slide slide">
-            <img src="images/product-img4.jpg" alt="">
+            <img src="images/bal.jpg" alt="">
             <h3>nike airmax</h3>
             <div class="btn" data-product="product-4">see details</div>
          </div>
 
          <div class="swiper-slide slide">
-            <img src="images/product-img5.jpg" alt="">
+            <img src="images/product-img2.jpg" alt="">
             <h3>nike airmax</h3>
             <div class="btn" data-product="product-5">see details</div>
          </div>
 
          <div class="swiper-slide slide">
-            <img src="images/product-img6.jpg" alt="">
-            <h3>nike airmax</h3>
+            <img src="images/NB1.jpg" alt="New Balance 5500">
+            <h3>New Balance 5500</h3>
             <div class="btn" data-product="product-6">see details</div>
          </div>
 

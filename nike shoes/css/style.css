@@ -48,7 +48,7 @@ section {
 .heading {
   text-align: center;
   font-size: 4rem;
-  color: #444;
+  color: #ab3333;
   text-transform: capitalize;
   margin-bottom: 3rem;
 }
@@ -207,7 +207,7 @@ section {
 }
 
 .banner .image img {
-  width: 100%;
+  width: 50%;
 }
 
 .products .slide {
